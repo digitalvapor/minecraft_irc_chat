@@ -23,3 +23,11 @@ TODO:
 #######
 
 На все было потрачено около часа, так что все ужасно. Надеюсь, найду время и сделать по уму хехе :)
+
+#Changes or notes-to-self
+* irc hardcoded `#kingdomplantar`
+* assumes freenode `chat.freenode.net` and port `6666`
+* assumes minecraft server file is named `minecraft_server.jar`
+* if dont want to mess with eula.txt etc, run this in the same folder as `minecraft_server.jar`
+  * i'm currently just doing `nohup python minecraft_irc_bot/main.py` from my `minecraft` folder
+* todo: have bot speak as well in irc

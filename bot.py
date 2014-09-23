@@ -126,4 +126,4 @@ class MyPP(protocol.ProcessProtocol):
     def output_send(self, data):
         if self.irc_proto:
             if self.irc_proto.protocol_:
-                self.irc_proto.protocol_.msg('#minecraft', data[:200])
+                self.irc_proto.protocol_.msg('#kingdomplantar', data[:200])

@@ -5,10 +5,10 @@ import irc, bot
 from twisted.internet import reactor#, protocol
 import sys
 
-irc_server = 'irc.tsure.ru'
+irc_server = 'chat.freenode.net'
 irc_server_port = 6666
 irc_nick = 'bot'
-irc_channel = '#minecraft'
+irc_channel = '#kingdomplantar'
 
 pp = bot.MyPP()
 reactor.spawnProcess(pp, "java", ["java", "-Xmx1024M", "-Xms1024M", "-jar", "minecraft_server.jar", "nogui"], {'LANG':'ru_RU.UTF-8'})

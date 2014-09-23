@@ -13,7 +13,7 @@ class IrcBot(irc.IRCClient):
         irc.IRCClient.connectionLost(self, reason)
 
     def signedOn(self):
-        self.join('#minecraft')
+        self.join('#kingdomplantar')
 
     def joined(self, channel):
         """This will get called when the bot joins the channel."""
@@ -106,6 +106,5 @@ class IrcBotFactory(protocol.ClientFactory):
         #reactor.stop()
         self.connected = 0
         reactor.callLater(10.0, connector.connect)
-        
         
 
